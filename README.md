@@ -19,3 +19,4 @@ Options
         -rf     R factor threshold, proteins with protein probablity less than the threshold will be used to estimate the R factor
                 ex: -rf0.2 (default: 0.2, do not use R factor: -1)
 
+If the PepXML is iProphet result, the reporeted PSM probability is iProphet probability, same with peptide ion table, the maximum probability will be based on iProphet probability.
